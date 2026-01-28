@@ -31,18 +31,9 @@ pnpm --filter @carrypet/server start:dev
 curl http://localhost:3000/health
 ```
 
-### Docker Compose (Postgres + API)
-```bash
-cp .env.example .env
-docker compose up --build
-```
-
-### Prisma
-```bash
-pnpm --filter @carrypet/server prisma:generate
-pnpm --filter @carrypet/server prisma:migrate
-```
-
 ## Next Steps
+- Add Docker Compose for Postgres + API
+- Add Prisma schema + migrations
 - Implement auth, trips, payments, matching, and admin modules
 - Create the mobile apps
+
