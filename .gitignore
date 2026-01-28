@@ -6,5 +6,3 @@ pnpm-lock.yaml
 !.env.example
 apps/server/dist
 apps/server/coverage
-.expo
-.expo-shared

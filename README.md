@@ -61,3 +61,9 @@ Use `POST /payments/mpesa/callback` with a payload like:
 - Flesh out UI flows for owner/driver apps (trip requests, offers, status tracking)
 - Add background jobs for matching expiration and payment reconciliation
 - Add real Daraja STK integration and webhook verification
+## Next Steps
+- Add Docker Compose for Postgres + API
+- Add Prisma schema + migrations
+- Implement auth, trips, payments, matching, and admin modules
+- Create the mobile apps
+
