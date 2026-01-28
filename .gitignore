@@ -3,5 +3,6 @@ pnpm-lock.yaml
 .DS_Store
 .env
 .env.*
+!.env.example
 apps/server/dist
 apps/server/coverage
